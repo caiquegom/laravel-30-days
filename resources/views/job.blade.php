@@ -3,6 +3,6 @@
 
     <h2 class="font-bold text-lg">{{ $job['title'] }}</h2>
     <p>
-        Este trabalho paga um salário de {{ $job['salary'] }} anual.
+        Este trabalho paga um salário de R${{ $job['salary'] / 100 }} anual.
     </p>
 </x-layout>
